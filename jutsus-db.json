@@ -1,0 +1,35 @@
+{
+    "jutsus": [
+        {
+            "name": "Jutsu de Clonagem",
+            "image": "https://static.wikia.nocookie.net/naruto/images/c/c3/T%C3%A9cnica_de_Clonagem.PNG/revision/latest/scale-to-width-down/350?cb=20140623001415&path-prefix=pt-br",
+            "description": "A Técnica de Clonagem é uma técnica básica de bunshinjutsu usada para criar uma ou mais imagens de si mesmo, sem corpo físico — por isso esses clones não causam dano e podem não se dissipar quando eles entram em contato com algo. A técnica é usada exclusivamente para confundir o adversario e, muitas vezes, é combinada com outras técnicas. É um jutsu simples que qualquer ninja pode usar, e apesar de ser uma técnica básica, pode ser de grande valia se for bem utilizada.",
+            "classification": "Ninjutsu",
+            "semiClassification": [
+                "Bunshinjutsu",
+                "Técnica Básica"
+            ],
+            "elements": "Nenhum",
+            "rank": "E",
+            "jclass": "Suplementar",
+            "handSeals": [
+                "Carneiro",
+                "Cobra",
+                "Tigre"
+            ]
+        },
+        {
+            "name": "Estilo Fogo: Jutsu Bola de Fogo",
+            "image": "https://static.wikia.nocookie.net/naruto/images/2/2e/Libera%C3%A7%C3%A3o_de_Fogo_-_T%C3%A9cnica_da_Grande_Bola_de_Fogo_%28Fugaku_Uchiha%29.png/revision/latest/scale-to-width-down/350?cb=20180415144454&path-prefix=pt-br",
+            "description": "O Estilo Fogo: Técnica da Grande Bola de Fogo é uma técnica que envolve a Mudança da Natureza de fogo e que foi originalmente criada pelo clã Uchiha, tornando-se uma de suas técnicas favoritas, em que eles se tornaram muito adeptos.",
+            "classification": "Ninjutsu",
+            "semiClassification": [],
+            "elements": "Estilo Fogo",
+            "rank": "C",
+            "jclass": "Ofensivo",
+            "handSeals": [
+                "Tigre"
+            ]
+        }
+    ]
+}
