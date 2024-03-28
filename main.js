@@ -46,13 +46,15 @@ async function jutsus() {
 
 jutsus().then(data => {
     const jutsu = data[0][Number(url.match(/\d+$/)[0]) - 1]
-    console.log(jutsu)
+    imgBuffer = "aHR0cHM6Ly9zdGF0aWMud2lraWEubm9jb29raWUubmV0L25hcnV0by9pbWFnZXMvNS81NS9BX0hlcmFuJUMzJUE3YV9kYV9Wb250YWRlX2RlX0ZvZ28uUE5HL3JldmlzaW9uL2xhdGVzdC9zY2FsZS10by13aWR0aC1kb3duLzM1MD9jYj0yMDE1MDMyMDIyNTY1MyZwYXRoLXByZWZpeD1wdC1icg=="
+    console.log(imgBuffer)
+    // console.log(jutsu)
     document.querySelector(".name").textContent =
         jutsu.name ||
         "No jutsu found";
-    document.querySelector(".jutsu-img").src =
-        jutsu.image ||
-        "No jutsu found";
+    // document.querySelector(".jutsu-img").src =
+    //     "data:image/jpeg;base64,aHR0cHM6Ly9zdGF0aWMud2lraWEubm9jb29raWUubmV0L25hcnV0by9pbWFnZXMvNS81NS9BX0hlcmFuJUMzJUE3YV9kYV9Wb250YWRlX2RlX0ZvZ28uUE5HL3JldmlzaW9uL2xhdGVzdC9zY2FsZS10by13aWR0aC1kb3duLzM1MD9jYj0yMDE1MDMyMDIyNTY1MyZwYXRoLXByZWZpeD1wdC1icg" ||
+    //     "No jutsu found";
     document.querySelector(".description").textContent =
         jutsu.description ||
         "No jutsu found";
@@ -79,7 +81,7 @@ jutsus().then(data => {
 
 
 const url = document.URL;
-console.log(url)
+// console.log(url)
 
 function changeJutsu() {
 
