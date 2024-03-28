@@ -72,3 +72,6 @@
     object-fit: cover;
   }
   
+  h1, h2, h3, p {
+    padding: 4px;
+  }
